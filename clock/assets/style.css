@@ -1,0 +1,84 @@
+@import url("https://fonts.cdnfonts.com/css/digital-7-mono");
+
+body {
+  background-color: #000;
+}
+
+.custom-clock {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  border: 3px solid #5a6163;
+  border-radius: 30px;
+}
+
+.custom-clock td {
+  text-align: center;
+  color: #e01b21;
+}
+
+.date-num td {
+  font-family: "Digital-7", sans-serif;
+}
+
+.custom-clock-container {
+  border: 5px solid #8d8e94;
+  padding: 50px;
+}
+
+.date {
+  color: #aabdc1;
+  font-size: 30px;
+}
+
+.date-num {
+  font-size: 120px;
+  box-shadow: 0 0 0 3px #5a6163;
+  border-radius: 10px;
+}
+
+.custom-hours {
+  box-shadow: 0 0 0 3px #5a6163;
+  border-radius: 10px;
+}
+
+.custom-hours td {
+  font-size: 120px;
+  font-family: "Digital-7", sans-serif;
+}
+
+.time th {
+  color: #aabdc1;
+  font-size: 50px;
+}
+
+.weekdays {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.weekdays td {
+  padding: 20px;
+}
+
+.weekdays input[type="radio"] {
+  margin-right: 5px;
+}
+
+.ampm div {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #fff;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.ampm p {
+  color: #fff;
+}
+
+.ampm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

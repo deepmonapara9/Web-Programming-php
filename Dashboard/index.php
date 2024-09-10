@@ -39,12 +39,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="row">
             <!-- Sidebar -->
             <nav id="sidebar" class="col-md-2">
-                <!-- <h2>Sidebar</h2>
+                <h2>Sidebar</h2>
                 <ul class="list-group">
                     <li class="list-group-item"><a href="#">Menu 1</a></li>
                     <li class="list-group-item"><a href="#">Menu 2</a></li>
                     <li class="list-group-item"><a href="#">Menu 3</a></li>
-                </ul> -->
+                </ul>
                 <h2>My Social Profiles</h2>
                 <ul class="list-group">
                     <li class="list-group-item">
@@ -169,6 +169,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

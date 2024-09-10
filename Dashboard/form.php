@@ -10,7 +10,7 @@
 
 <body>
     <div class="form">
-    <form action="dashboard.php" method="POST">
+    <form action="index.php" method="POST">
         <div class="title">Welcome</div>
         <div class="subtitle">Enter your details!</div>
 
@@ -72,7 +72,6 @@
         <button type="submit" class="submit">Submit</button>
     </form>
 </div>
-
 
 </body>
 

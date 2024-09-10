@@ -64,7 +64,7 @@
 
         <!-- Input for Projects -->
         <div class="input-container ic2">
-        <textarea id="details" class="input" placeholder=" " name="skills"></textarea>
+        <textarea id="details" class="input" placeholder=" " name="projects"></textarea>
             <label for="projects" class="placeholder">Projects</label>
         </div>
 

@@ -3,6 +3,9 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $details = htmlspecialchars($_POST["details"]);
     $skills = htmlspecialchars($_POST["skills"]);
+    $portfolio = htmlspecialchars($_POST["portfolio"]);
+    $linkdien = htmlspecialchars($_POST["linkdien"]);
+    $github = htmlspecialchars($_POST["github"]);
     $task1 = htmlspecialchars($_POST["task1"]);
     $task2 = htmlspecialchars($_POST["task2"]);
     $task3 = htmlspecialchars($_POST["task3"]);
@@ -48,16 +51,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <h2>My Social Profiles</h2>
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <a href="https://sites.google.com/view/deepresume/home" target="_blank">Portfolio</a>
+                        <a href="<?php echo $portfolio ?>" target="_blank">Portfolio</a>
                     </li>
                     <li class="list-group-item">
-                        <a href="https://linkedin.com/in/deep-monapara-d09" target="_blank">LinkedIn</a>
+                        <a href="<?php echo $linkdien ?>" target="_blank">LinkedIn</a>
                     </li>
                     <!-- <li class="list-group-item">
                         <a href="https://www.blog.com" target="_blank">Blog</a>
                     </li> -->
                     <li class="list-group-item">
-                        <a href="https://github.com/deepmonapara9" target="_blank">GitHub</a>
+                        <a href="<?php echo $github ?>" target="_blank">GitHub</a>
                     </li>
                 </ul>
             </nav>

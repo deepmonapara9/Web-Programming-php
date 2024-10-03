@@ -12,11 +12,13 @@ Welcome to my PHP tasks and class exercises repository! This repository contains
 
 This repository contains all the PHP-related tasks and exercises I have completed as part of my learning journey. The purpose of this repository is to track my progress and share my work with others who are also learning or interested in PHP development.
 
-## Task Descriptions
+# Task Descriptions
 
-### Task 1: Basic PHP Scripting
+## Task 1: Basic PHP Scripting
 
 This task covers fundamental PHP scripting concepts using the `echo` statement. It includes:
+
+## List of Scripts
 
 1. **Script_1**: Display "Hello, World!".
 2. **Script_2**: Create variables for name and age, and display them in a message.
@@ -31,9 +33,11 @@ This task covers fundamental PHP scripting concepts using the `echo` statement. 
 These scripts demonstrate key PHP basics like variables, output, and string manipulation.
 
 
-### Task 2: Intermediate PHP Exercises
+## Task 2: Intermediate PHP Exercises
 
 This task focuses on more complex PHP scripting challenges, including calculations, conditions, and number manipulation. Each script demonstrates practical logic and problem-solving techniques in PHP:
+
+## List of Scripts
 
 1. **Script_10**: Calculate the area of a rectangle.
 2. **Script_11**: Check if a number is even or odd.
@@ -54,7 +58,7 @@ This task focuses on more complex PHP scripting challenges, including calculatio
 
 These scripts explore arithmetic operations, string handling, conditional logic, and user interaction.
 
-# Task 3: Advanced PHP Array Functions
+## Task 3: Advanced PHP Array Functions
 
 This task focuses on advanced PHP array operations using built-in functions to manipulate and process arrays in various ways.
 

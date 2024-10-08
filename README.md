@@ -98,6 +98,27 @@ This task focuses on advanced PHP array operations using built-in functions to m
 These scripts cover a wide range of array manipulation techniques using PHP’s array functions to handle and process both indexed and associative arrays.
 
 
+## Registration Form
+
+This component demonstrates form handling, CSS styling, and data insertion into a MySQL database using PHP.
+
+### Features
+
+1. **HTML Form**: A user registration form that collects the following details:
+   - First Name
+   - Middle Name
+   - Last Name
+   - Email
+   - Mobile Number
+   - Address
+   - City
+   - State
+   - Country
+   - Password
+2. **CSS Styling**: The `style.css` file contains the styling for the form, ensuring a user-friendly design and responsive.
+3. **PHP Integration**: The `index.php` file fetches the data from the form and inserts it into a MySQL database for persistence.
+
+
 ## How to Use
 
 Clone the repository:

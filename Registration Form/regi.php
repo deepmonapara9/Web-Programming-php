@@ -1,12 +1,7 @@
 <?php
 
-$con = mysqli_connect('localhost', 'admin', 'admin123', 'mca_32');
-
-if (!$con) {
-    die('Connection Error: ' . mysqli_connect_error());
-} else {
-    echo 'Connection Successful<br>';
-}
+// Include the connection file
+include 'con.php';
 
 if (isset($_POST['submit'])) {
     // Collect form data

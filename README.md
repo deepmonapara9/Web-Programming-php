@@ -7,6 +7,7 @@ Welcome to my PHP tasks and class exercises repository! This repository contains
 - [Introduction](#introduction)
 - [Task Descriptions](#task-descriptions)
 - [Registration Form](#registration-form)
+- [File Handling](#file-handling)
 - [How to Use](#how-to-use)
 
 ## Introduction
@@ -118,6 +119,22 @@ This component demonstrates form handling, CSS styling, and data insertion into 
    - Password
 2. **CSS Styling**: The `style.css` file contains the styling for the form, ensuring a user-friendly design and responsive.
 3. **PHP Integration**: The `index.php` file fetches the data from the form and inserts it into a MySQL database for persistence.
+
+
+## File Handling
+
+This folder contains various file handling operations in PHP. These scripts demonstrate how to perform basic file operations like reading, writing, and manipulating files.
+
+### Features
+
+1. **file_read.php**: Script to read the contents of a file.
+2. **file_write.php**: Script to write data to a file.
+3. **file_append.php**: Script to append data to an existing file.
+4. **file_delete.php**: Script to delete a file.
+5. **file_upload.php**: Script to handle file uploads through an HTML form.
+6. **file_info.php**: Script to get information about a file (size, type, etc.).
+7. **file_exists.php**: Script to check if a file exists.
+8. **file_copy.php**: Script to copy a file to another location.
 
 
 ## How to Use

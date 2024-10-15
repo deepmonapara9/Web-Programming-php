@@ -1,29 +1,29 @@
 <?php
+// Enable error reporting for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-// Include the connection file
+// Database connection
 include 'con.php';
 
+// Check if form was submitted
 if (isset($_POST['submit'])) {
-    // Collect form data
-    $fname = $_POST['fname'];
-    $mname = $_POST['mname'];
-    $lname = $_POST['lname'];
-    $email = $_POST['email'];
-    $mobno = $_POST['mobno'];
-    $address = $_POST['address'];
-    $city = $_POST['city'];
-    $state = $_POST['state'];
-    $country = $_POST['country'];
-    $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+    // Debug: print the submitted form data
+    // print_r($_POST);
 
-    // Create the SQL query
-    $sql = "INSERT INTO `user_details` (`fname`, `mname`, `lname`, `email`, `mobno`, `address`, `city`, `state`, `country`, `password`) 
-            VALUES ('$fname','$mname','$lname','$email','$mobno','$address','$city','$state','$country','$password')";
+    // Collect form data and sanitize inputs
+    $name = mysqli_real_escape_string($con, $_POST['name']);
+    $age = mysqli_real_escape_string($con, $_POST['age']);
+    $course = mysqli_real_escape_string($con, $_POST['course']);
+
+    // Prepare the SQL query
+    $sql = "INSERT INTO `user_data`(`name`, `age`, `course`) VALUES ('$name', '$age', '$course')";
+
+    // Debug: print the SQL query
+    // echo "SQL Query: " . $sql . "<br>";
 
     // Execute the query
-    $exc = mysqli_query($con, $sql);
-
-    if ($exc) {
+    if (mysqli_query($con, $sql)) {
         echo 'Data Inserted Successfully';
     } else {
         // Show detailed error message if insertion fails
@@ -31,5 +31,6 @@ if (isset($_POST['submit'])) {
     }
 }
 
+// Close the connection
 mysqli_close($con);
 ?>

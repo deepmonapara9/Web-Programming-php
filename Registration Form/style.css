@@ -4,10 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
 }
+
 .container {
   width: 80%;
   margin: auto;
@@ -15,8 +17,9 @@ body {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 h1 {
   text-align: center;
   margin-bottom: 20px;
@@ -28,16 +31,23 @@ table {
   border-collapse: collapse;
   margin-bottom: 20px;
 }
-table, th, td {
+
+table,
+th,
+td {
   border: 1px solid #ddd;
 }
-th, td {
+
+th,
+td {
   padding: 10px;
   text-align: left;
 }
+
 th {
   background-color: #f2f2f2;
 }
+
 tr:nth-child(even) {
   background-color: #f9f9f9;
 }
@@ -46,20 +56,24 @@ tr:nth-child(even) {
 .form-container {
   margin-top: 20px;
 }
+
 form {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 label {
   font-weight: bold;
 }
+
 input[type="text"],
 input[type="number"] {
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+
 button {
   padding: 10px;
   background-color: #4CAF50;
@@ -69,6 +83,7 @@ button {
   cursor: pointer;
   font-size: 16px;
 }
+
 button:hover {
   background-color: #45a049;
 }

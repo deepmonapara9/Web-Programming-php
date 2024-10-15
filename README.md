@@ -6,6 +6,7 @@ Welcome to my PHP tasks and class exercises repository! This repository contains
 
 - [Introduction](#introduction)
 - [Task Descriptions](#task-descriptions)
+- [Registration Form](#registration-form)
 - [How to Use](#how-to-use)
 
 ## Introduction
